@@ -19,15 +19,7 @@ const kkk =1200;
 
 console.log(kkk === 1000);
 
-
 const score = 40;
-//if (score >= 80){
-//  console.log('A');
-//}else if (score >= 60){
-//  console.log('B');
-//}else (score >= 40){
-//  console.log('C');
-//}
-
+const name ='taguchi';
 
 score >= 80 ? console.log('A') : console.log('B')
