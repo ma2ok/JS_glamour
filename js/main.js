@@ -23,3 +23,15 @@ const score = 40;
 const name ='taguchi';
 
 score >= 80 ? console.log('A') : console.log('B')
+
+if (score >= 50 && name === 'taguchi') {
+  console.log('Good job!');
+}
+
+const signal = 'red';
+
+switch(signal){
+  case 'red':
+    console.log('stop');
+    break;
+}
