@@ -35,3 +35,62 @@ switch(signal){
     console.log('stop');
     break;
 }
+
+for (let i = 1; i <=10; i++){
+  // console.log('Hello')
+  console.log(`hello ${i}`)
+}
+
+let hp =-50;
+
+do {
+  console.log(`${hp} left`);
+  hp -=15;
+}while(hp>0);
+
+for (let i = 1; i <=10; i++){
+  if(i===4){
+    break;
+  }
+  console.log(i);
+}
+
+function showAD(message = 'Ad'){
+  console.log('----------')
+  console.log(`--- ${message} ---`)
+  console.log('----------')
+}
+
+showAD('Header Ad');
+console.log('TOM');
+console.log('Bon');
+// showAD('Ad');
+showAD();
+console.log('steve');
+console.log('rechman')
+showAD('Footer Ad');
+
+
+// const sum = (a,b,c) => a+b+c;
+
+// const total = sum (1,2,3) +sum(3,4,5);
+// console.log(total);
+
+const double = a =>a*2;
+console.log(double(12));
+
+
+const x = 2;
+
+function f() {
+  const x = 1;
+  console.log(x);
+}
+
+f();
+console.log(x);
+
+{
+  const x = 100;
+  console.log(x);
+}
